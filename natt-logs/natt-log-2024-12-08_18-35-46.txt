@@ -1,0 +1,247 @@
+[18:35:46][PluginLoader][INFO] No plugins found.
+[18:35:46][ProcessManager][WARNING] Failed to read PIDs: pid-list.txt (The system cannot find the file specified)
+[18:35:46][NATTCore][INFO] NATT CORE initialization done
+Version: 1.7.0 
+Configuration path: https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads
+Configuration loading mode: FROM URL
+[18:35:46][NATTCore][INFO] Working directory path: C:\Users\Fidga\Desktop\Files\School\Java\restful-api-server
+[18:35:46][NATTCore][INFO] Start loading of the configuration file ...
+[18:35:47][NetworkIO][INFO] Yaml data has been loaded from network location (https://gitlab.com/ap5vs/test-config/restful-api-server-config/-/raw/main/test-config-6.yaml?ref_type=heads)
+[18:35:47][NATTCore][INFO] Configuration loading done
+[18:35:47][NATTCore][INFO] Start building test structure according to the configuration ...
+[18:35:47][NATTCore][INFO] Test structure ...
+[18:35:47][NATTCore][INFO] Test structure building done
+[18:35:47][NATTCore][INFO] Start test executing ...
+[18:35:47][TestReportGenerator][INFO] Extenet reports generated. Final report will be saved to file: test_report.html
+[18:35:47][NATTCore][INFO] Starts execution on the root keyword  ...
+[18:35:47][MessageBuffer][INFO] Message buffer created for module with name: default
+[18:35:47][ExternalProgramRunner][INFO] (default) Run external app with command: java -jar build/libs/RESTAPIServer-0.0.1-SNAPSHOT.jar
+[18:35:47][ProcessManager][INFO] New PID (30580) added to file
+[18:35:47][WaitUntilKw][INFO] Waiting for action. Actions count: 1, Time out: 30000 ms
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  .   ____          _            __ _ _'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' \\/  ___)| |_)| | | | | || (_| |  ) ) ) )'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '  '  |____| .__|_| |_|_| |_\__, | / / / /'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' =========|_|==============|___/=/_/_/_/'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ' :: Spring Boot ::                (v3.2.4)'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:48.388+01:00  INFO 30580 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : Starting RestapiServerApplication v0.0.1-SNAPSHOT using Java 17.0.11 with PID 30580 (C:\Users\Fidga\Desktop\Files\School\Java\restful-api-server\build\libs\RESTAPIServer-0.0.1-SNAPSHOT.jar started by Fidga in C:\Users\Fidga\Desktop\Files\School\Java\restful-api-server)'
+[18:35:48][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:48.393+01:00  INFO 30580 --- [RESTAPIServer] [           main] u.f.R.RestapiServerApplication           : No active profile set, falling back to 1 default profile: "default"'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.220+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.222+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.252+01:00  INFO 30580 --- [RESTAPIServer] [           main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface utb.fai.RESTAPIServer.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.252+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.264+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.265+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.302+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.860+01:00  INFO 30580 --- [RESTAPIServer] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 12883 (http)'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.871+01:00  INFO 30580 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.872+01:00  INFO 30580 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.915+01:00  INFO 30580 --- [RESTAPIServer] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.917+01:00  INFO 30580 --- [RESTAPIServer] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1439 ms'
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.982+01:00  WARN 30580 --- [RESTAPIServer] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc''
+[18:35:49][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:49.986+01:00  INFO 30580 --- [RESTAPIServer] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:50.004+01:00  INFO 30580 --- [RESTAPIServer] [           main] .s.b.a.l.ConditionEvaluationReportLogger : '
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '2024-12-08T18:35:50.022+01:00 ERROR 30580 --- [RESTAPIServer] [           main] o.s.boot.SpringApplication               : Application run failed'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at utb.fai.RESTAPIServer.RestapiServerApplication.main(RestapiServerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[RESTAPIServer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[RESTAPIServer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[RESTAPIServer-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 28 common frames omitted'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: URL must start with 'jdbc''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 42 common frames omitted'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: 'Caused by: java.lang.IllegalArgumentException: URL must start with 'jdbc''
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.util.Assert.isTrue(Assert.java:111) ~[spring-core-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.jdbc.DatabaseDriver.fromJdbcUrl(DatabaseDriver.java:288) ~[spring-boot-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:180) ~[spring-boot-autoconfigure-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:49) ~[spring-boot-autoconfigure-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:55) ~[spring-boot-autoconfigure-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:117) ~[spring-boot-autoconfigure-3.2.4.jar!/:3.2.4]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.5.jar!/:6.1.5]'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: '	... 43 common frames omitted'
+[18:35:50][MessageBuffer][INFO] Message added to buffer [ Mod: default | Tag:  ] Content: ''
+[18:35:50][ProcessManager][INFO] PID (30580) removed from file
+[18:35:50][ExternalProgramRunner][WARNING] (default) External application ends with error: 1
+[18:36:17][WaitUntilKw][WARNING] Timeout.. Action was not invoked!
+[18:36:17][MessageBuffer][INFO] Message buffer created for module with name: module-1
+[18:36:17][RESTTester][INFO] (module-1) Sending a DELETE request on endpoint: http://localhost:8080/deleteAll
+[18:36:17][RESTTester][WARNING] (module-1) HTTP request returned an error status: 404
+[18:36:17][MessageBuffer][INFO] Message added to buffer [ Mod: module-1 | Tag: http://localhost:8080/deleteAll ] Content: 'ERROR: 404'
+[18:36:17][MessageBuffer][INFO] Message buffer created for module with name: user-create
+[18:36:17][MessageBuffer][INFO] Message buffer created for module with name: user-get
+[18:36:17][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele' starts executing now
+[18:36:17][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[18:36:17][RESTTester][WARNING] (user-create) HTTP request returned an error status: 404
+[18:36:17][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 404'
+[18:36:17][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[18:36:17][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser
+[18:36:17][RESTTester][WARNING] (user-get) HTTP request returned an error status: 404
+[18:36:17][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: 'ERROR: 404'
+[18:36:17][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{"id": , "name": "User1", "email": "test@email.com", "phoneNumber": "+420666555444"}"; line: 1, column: 9]
+[18:36:17][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '{"id": , "name": "User1", "email": "test@email.com", "phoneNumber": "+420666555444"}' must be same as the JSON in the variable 'ERROR: 404')
+[18:36:17][TestSuiteKw][ERROR] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele' failed
+[18:36:18][MessageBuffer][INFO] Message buffer cleared
+[18:36:18][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným emailem' starts executing now
+[18:36:18][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[18:36:18][RESTTester][WARNING] (user-create) HTTP request returned an error status: 404
+[18:36:18][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 404'
+[18:36:18][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[18:36:18][TestSuiteKw][ERROR] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným emailem' failed
+[18:36:18][MessageBuffer][INFO] Message buffer cleared
+[18:36:19][TestSuiteKw][INFO] Test case 'Test vytvoření uživatele s neplatným telefonem' starts executing now
+[18:36:19][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[18:36:19][RESTTester][WARNING] (user-create) HTTP request returned an error status: 404
+[18:36:19][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 404'
+[18:36:19][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[18:36:19][TestSuiteKw][ERROR] Test suite 'Testování vytváření uživatelů' - Test case 'Test vytvoření uživatele s neplatným telefonem' failed
+[18:36:19][MessageBuffer][INFO] Message buffer cleared
+[18:36:20][MessageBuffer][INFO] Message buffer cleared
+[18:36:20][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[18:36:20][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[18:36:20][MessageBuffer][INFO] Message buffer created for module with name: user-edit
+[18:36:20][MessageBuffer][INFO] Message buffer created for module with name: user-all
+[18:36:20][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele' starts executing now
+[18:36:20][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[18:36:20][RESTTester][WARNING] (user-all) HTTP request returned an error status: 404
+[18:36:20][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: 'ERROR: 404'
+[18:36:20][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[18:36:20][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[18:36:20][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser
+[18:36:20][RESTTester][WARNING] (user-edit) HTTP request returned an error status: 404
+[18:36:20][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: 'ERROR: 404'
+[18:36:20][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser
+[18:36:20][RESTTester][WARNING] (user-get) HTTP request returned an error status: 404
+[18:36:20][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: 'ERROR: 404'
+[18:36:20][AssertJsonKw][WARNING] Error parsing JSON: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{"id": , "name": "updated", "email": "updated@email.com", "phoneNumber": "+420777666444"}"; line: 1, column: 9]
+[18:36:20][AssertJsonKw][WARNING] Assertion failed. True was expected as the result. Condition: (Expected JSON '{"id": , "name": "updated", "email": "updated@email.com", "phoneNumber": "+420777666444"}' must be same as the JSON in the variable 'ERROR: 404')
+[18:36:20][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele' failed
+[18:36:20][MessageBuffer][INFO] Message buffer cleared
+[18:36:20][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 1' starts executing now
+[18:36:20][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[18:36:20][RESTTester][WARNING] (user-all) HTTP request returned an error status: 404
+[18:36:20][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: 'ERROR: 404'
+[18:36:20][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[18:36:20][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[18:36:20][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser
+[18:36:20][RESTTester][WARNING] (user-edit) HTTP request returned an error status: 404
+[18:36:20][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: 'ERROR: 404'
+[18:36:20][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[18:36:20][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 1' failed
+[18:36:20][MessageBuffer][INFO] Message buffer cleared
+[18:36:21][TestSuiteKw][INFO] Test case 'Test aktualizace uživatele s neplatnými údaji 2' starts executing now
+[18:36:21][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[18:36:21][RESTTester][WARNING] (user-all) HTTP request returned an error status: 404
+[18:36:21][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: 'ERROR: 404'
+[18:36:21][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[18:36:21][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[18:36:21][RESTTester][INFO] (user-edit) Sending a PUT request on endpoint: http://localhost:8080/editUser
+[18:36:21][RESTTester][WARNING] (user-edit) HTTP request returned an error status: 404
+[18:36:21][MessageBuffer][INFO] Message added to buffer [ Mod: user-edit | Tag: http://localhost:8080/editUser ] Content: 'ERROR: 404'
+[18:36:21][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text 'ERROR: 400')
+[18:36:21][TestSuiteKw][ERROR] Test suite 'Testování aktualizace uživatelů' - Test case 'Test aktualizace uživatele s neplatnými údaji 2' failed
+[18:36:21][MessageBuffer][INFO] Message buffer cleared
+[18:36:22][MessageBuffer][INFO] Message buffer cleared
+[18:36:22][RESTTester][INFO] (user-edit) REST tester [user-edit] terminated
+[18:36:22][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[18:36:22][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[18:36:22][MessageBuffer][INFO] Message buffer created for module with name: user-delete
+[18:36:22][MessageBuffer][INFO] Message buffer created for module with name: user-delete-all
+[18:36:22][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[18:36:22][RESTTester][WARNING] (user-create) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 404'
+[18:36:22][RESTTester][INFO] (user-create) Sending a POST request on endpoint: http://localhost:8080/createUser
+[18:36:22][RESTTester][WARNING] (user-create) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-create | Tag: http://localhost:8080/createUser ] Content: 'ERROR: 404'
+[18:36:22][TestSuiteKw][INFO] Test case 'Test odstranění jednoho uživatele' starts executing now
+[18:36:22][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[18:36:22][RESTTester][WARNING] (user-all) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: 'ERROR: 404'
+[18:36:22][NATTContext][INFO] Data has been stored in to the variable 'var-user'. Data value: 
+[18:36:22][NATTContext][INFO] Data has been stored in to the variable 'var-id'. Data value: 
+[18:36:22][RESTTester][INFO] (user-delete) Sending a DELETE request on endpoint: http://localhost:8080/deleteUser
+[18:36:22][RESTTester][WARNING] (user-delete) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete | Tag: http://localhost:8080/deleteUser ] Content: 'ERROR: 404'
+[18:36:22][RESTTester][INFO] (user-get) Sending a GET request on endpoint: http://localhost:8080/getUser
+[18:36:22][RESTTester][WARNING] (user-get) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-get | Tag: http://localhost:8080/getUser ] Content: 'ERROR: 404'
+[18:36:22][TestSuiteKw][INFO] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění jednoho uživatele' passed
+[18:36:22][MessageBuffer][INFO] Message buffer cleared
+[18:36:22][TestSuiteKw][INFO] Test case 'Test odstranění všech uživatelů' starts executing now
+[18:36:22][RESTTester][INFO] (user-delete-all) Sending a DELETE request on endpoint: http://localhost:8080/deleteAll
+[18:36:22][RESTTester][WARNING] (user-delete-all) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-delete-all | Tag: http://localhost:8080/deleteAll ] Content: 'ERROR: 404'
+[18:36:22][RESTTester][INFO] (user-all) Sending a GET request on endpoint: http://localhost:8080/users
+[18:36:22][RESTTester][WARNING] (user-all) HTTP request returned an error status: 404
+[18:36:22][MessageBuffer][INFO] Message added to buffer [ Mod: user-all | Tag: http://localhost:8080/users ] Content: 'ERROR: 404'
+[18:36:22][AssertEqualsKw][WARNING] Assertion failed. True was expected as the result. Condition: (Value of variable 'ERROR: 404' must contains expected text '[]')
+[18:36:22][TestSuiteKw][ERROR] Test suite 'Testování požadavků pro odstranění' - Test case 'Test odstranění všech uživatelů' failed
+[18:36:23][MessageBuffer][INFO] Message buffer cleared
+[18:36:23][MessageBuffer][INFO] Message buffer cleared
+[18:36:23][RESTTester][INFO] (user-delete) REST tester [user-delete] terminated
+[18:36:23][RESTTester][INFO] (user-delete-all) REST tester [user-delete-all] terminated
+[18:36:23][RESTTester][INFO] (user-all) REST tester [user-all] terminated
+[18:36:23][RESTTester][INFO] (user-get) REST tester [user-get] terminated
+[18:36:23][RESTTester][INFO] (user-create) REST tester [user-create] terminated
+[18:36:23][MessageBuffer][INFO] Message buffer cleared
+[18:36:23][RESTTester][INFO] (module-1) REST tester [module-1] terminated
+[18:36:23][NATTCore][INFO] Test executing finished
+[18:36:23][NATTCore][INFO] Start generating test report
+[18:36:23][TestReportGenerator][INFO] Report saved to file
+[18:36:23][NATTCore][WARNING] Failed test cases: "Test root initialization", "Test vytvoření uživatele", "Test vytvoření uživatele s neplatným emailem", "Test vytvoření uživatele s neplatným telefonem", "Test aktualizace uživatele", "Test aktualizace uživatele s neplatnými údaji 1", "Test aktualizace uživatele s neplatnými údaji 2", "Test odstranění všech uživatelů"
+[18:36:23][NATTCore][INFO] Final score: 1,250000
+[18:36:23][NATTCore][ERROR] Testing done. Leaving status: FAILED
